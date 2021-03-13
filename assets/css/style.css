@@ -499,7 +499,6 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 150vh;
   background: url("../img/hero-bg.png") top center;
   background-size: cover;
   position: relative;
@@ -557,7 +556,13 @@ h1, h2, h3, h4, h5, h6 {
 .hero-content{
   text-align: left;
   color: #6484A8;
-  font-size: 15px;
+  font-size: 18px;
+}
+
+.hero-content-btn{
+  text-align: left;
+  color: #6484A8;
+  font-size: 14px;
 }
 .informasi-content{
   text-align: left;
@@ -662,7 +667,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 32px;
     line-height: 36px;
   }
   #hero h2 {
@@ -718,7 +723,7 @@ section {
   position: relative;
 }
 .hero-picture{
-  width: 350px;
+  width: 400px;
 }
 
 .section-title h2::after {
@@ -1008,6 +1013,7 @@ section {
   color: #2A598E;
 }
 
+
 .pricing .boxes4 h4 sup {
   font-size: 20px;
   top: -15px;
@@ -1201,6 +1207,13 @@ section {
 --------------------------------------------------------------*/
 .clients {
   padding-top: 30px;
+  margin-top: -150px;
+}
+
+.clients2 {
+  padding-top: 30px;
+  margin-top: -80px;
+  margin-bottom: -80px;
 }
 
 .clients .clients-wrap {
@@ -1592,6 +1605,22 @@ section {
 
 .pricing .boxes h4 {
   font-size: 32px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.pricing .boxes h5 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.pricing .boxes h7 {
+  font-size: 14px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 20px;
@@ -2038,6 +2067,18 @@ section {
   color: #2A598E;
 }
 
+.informasi{
+  margin-top: -60px;
+}
+
+.artikel{
+  margin-top: -100px;
+}
+
+.partner{
+  margin-top: -100px;
+}
+
 .informasi-cal{
   font-size: 12px;
   color: #2A598E;
@@ -2079,6 +2120,7 @@ section {
 
 .desc-articel{
   font-size: 12px;
+  color: #2A598E;
 
 }
 
@@ -2284,14 +2326,12 @@ section {
   box-shadow: 5px 0px 5px 0px #D7DEE6;
 }
 
+
 .img-fitur{
   border-radius: 5px 5px 0px 0px;
   width: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-.img-fitur:hover{
-  width: 120px;
 }
 
 .pricing .recommended-badge {
