@@ -1,0 +1,50 @@
+.container-1{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+
+#search{
+  width: 500px;
+  height: 50px;
+  background: #fff;
+  border: none;
+  font-size: 10pt;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  border-style: solid; 
+  -moz-border-radius: 5px;
+  border-radius: 30px;
+  border-color: #93A5B9;
+  border-width: 2px;
+  margin-right: -40px;  
+}
+
+#search{
+	width: 520px;
+}
+
+.bx{
+  color: #63717f;
+
+}
+
+
+
+.container-1 input#search::-webkit-input-placeholder {
+   color: #65737e;
+}
+ 
+.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;  
+}
+ 
+.container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;  
+}
+ 
+.container-1 input#search:-ms-input-placeholder {  
+   color: #65737e;  
+}
